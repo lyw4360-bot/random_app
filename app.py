@@ -84,4 +84,4 @@ if st.button("위험도 분석하기", type="primary"):
         if movie[3] in ["상", "중"]:
             table_data.append({
                 "영화명": movie[0],
-                "위험도": movie[3],
+                "위험도": movie[3]})
